@@ -23,16 +23,16 @@ const getSum = () => {
     // create td
     const data = document.createElement("td");
 
-    // add total text
-    data.textContent = "Total Price: " + total;
+    // add text
+    data.textContent = total;
 
-    // span across columns
+    // span across both columns
     data.colSpan = 2;
 
-    // append td to row
+    // append td inside row
     row.appendChild(data);
 
-    // append row to tbody
+    // append row inside tbody
     tableBody.appendChild(row);
 };
 
